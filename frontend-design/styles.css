@@ -8,6 +8,16 @@ table {
   max-width: 500px;
 }
 
+a:link, a:visited{
+  background-color: rgba(0, 255, 255, 0);
+  color: #aa0000d2
+}
+
+a:hover, a:active{
+  background-color: #32d6ff;
+  color: #FFFFFF
+}
+
 table,
 th,
 td {
@@ -41,8 +51,8 @@ table tbody tr:nth-child(odd) {
 }
 
 /* Homework: make use of this, google it, etc. make it sexy */
-table tbody tr:has(input:checked)  {
-  background: green;
+table tbody th:has(input:checked)  {
+  background: rgb(0, 128, 32);
   color: white;
 }
 
