@@ -50,7 +50,7 @@ table tbody tr:nth-child(odd) {
   color: white;
 }
 
-/* Homework: make use of this, google it, etc. make it sexy */
+
 table tbody th:has(input:checked)  {
   background: rgb(0, 128, 32);
   color: white;
