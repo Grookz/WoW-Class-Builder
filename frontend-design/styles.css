@@ -10,7 +10,7 @@ table {
 
 a:link, a:visited{
   background-color: rgba(0, 255, 255, 0);
-  color: #aa0000d2
+  color: #ffffffd2
 }
 
 a:hover, a:active{
@@ -35,7 +35,7 @@ table {
 
 table td,
 table th {
-  border: 1px solid #000000;
+  border: 1px solid hsl(0, 0%, 0%);
   padding: 5px 10px;
 }
 
@@ -46,7 +46,7 @@ table tbody td {
 }
 
 table tbody tr:nth-child(odd) {
-  background: #202020;
+  background: linear-gradient(90deg, #C41E3A 0%, rgba(69,251,252,1) 100%);
   color: white;
 }
 
@@ -58,11 +58,11 @@ table tbody th:has(input:checked)  {
 
 table tbody tr:nth-child(even) {
   color: white;
-  background: #202020;
+  background: linear-gradient(90deg, #C41E3A 0%, rgba(69,251,252,1) 100%);
 }
 
 table thead {
-  background: #5c0b0b;
+  background: #3a3737;
   border-bottom: 3px solid #444444;
 }
 
